@@ -10,4 +10,6 @@ Team Members: Chalumuri, Vivek (vivekc@kth.se) | Chun Hung Lin (chlin3@kth.se) |
 
 ### App
 
-<img src="BookServer/screenshot.png">
+<p align="center">
+  <img src="BookServer/screenshot.png" width=300>
+</p>
