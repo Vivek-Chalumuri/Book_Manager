@@ -1,0 +1,42 @@
+{
+  "responseId": "da1c9bea-4d8e-4f25-b3eb-89f25057dc66",
+  "queryResult": {
+    "queryText": "yes",
+    "action": "Intentremove_book_record.Intentremove_book_record-yes",
+    "parameters": {},
+    "allRequiredParamsPresent": true,
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            ""
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/test-7bb20/agent/sessions/e87a1170-a0d8-37b5-0106-7206c6c5700d/contexts/intentremove_book_record-followup",
+        "lifespanCount": 1
+      },
+      {
+        "name": "projects/test-7bb20/agent/sessions/e87a1170-a0d8-37b5-0106-7206c6c5700d/contexts/rfid",
+        "lifespanCount": 4,
+        "parameters": {
+          "RFID.original": "3443884944E9",
+          "RFID": "3443884944E9"
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/test-7bb20/agent/intents/18a564f5-caf3-4c49-86b6-4278a1bc955c",
+      "displayName": "Intent.remove_book_record - yes"
+    },
+    "intentDetectionConfidence": 1.0,
+    "languageCode": "en"
+  },
+  "originalDetectIntentRequest": {
+    "payload": {}
+  },
+  "session": "projects/test-7bb20/agent/sessions/e87a1170-a0d8-37b5-0106-7206c6c5700d"
+}
